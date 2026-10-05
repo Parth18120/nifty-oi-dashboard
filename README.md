@@ -2,8 +2,8 @@
 
 A real-time options analytics dashboard for Nifty and Sensex, built for option sellers. It pulls the live option chain from the Dhan API, analyses open interest and volatility, flags cheap and rich strikes, and runs a rule-based **paper-trading** engine so strategies can be tested without risking capital.
 
-![Dashboard in demo mode](docs/dashboard-demo.png)
-<sub>Dashboard running on the built-in demo data.</sub>
+![Dashboard during market hours](docs/dashboard.png)
+<sub>The dashboard running on live Nifty data.</sub>
 
 > **Disclaimer:** Educational and research project, not financial advice. The Dhan API is used for market data only. The code never places real orders.
 
