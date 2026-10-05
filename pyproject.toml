@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+extend-exclude = ["web"]
+
+[tool.ruff.lint]
+select = ["E9", "F", "I"]
+ignore = ["F401", "F541", "F841", "E401"]

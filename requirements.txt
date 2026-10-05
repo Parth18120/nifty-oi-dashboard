@@ -1,0 +1,8 @@
+dhanhq
+flask
+flask-cors
+numpy
+openpyxl
+requests
+rich
+scipy
